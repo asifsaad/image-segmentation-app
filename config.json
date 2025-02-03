@@ -1,0 +1,14 @@
+
+{
+    "model": {
+        "model_path":"../models/nvidia/segformer-b1-finetuned-ade-512-512/model/"
+    },
+    "feature_extractor": {
+        "feature_extractor_path":"../models/nvidia/segformer-b1-finetuned-ade-512-512/feature_extractor/"
+    }
+  }
+  
+
+  
+
+  
