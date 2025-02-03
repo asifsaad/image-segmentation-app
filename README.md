@@ -80,13 +80,11 @@ Model details are stored in **`config.json`**, which allows easy modification of
 
 ## Example Output
 ### Original Image
-![Original Image](original image.jpg)
+![Original Image](original_image.jpg)
 
 ### Segmented Image
 ![Segmented Image](segmented_image.jpg)
 Original Image → Segmented Image Overlay:
-![Example Segmentation](https://via.placeholder.com/600x300.png?text=Example+Output)
-
 
 ## Deployment
 You can deploy this app using **Streamlit Cloud**, **AWS**, or **GCP**:
