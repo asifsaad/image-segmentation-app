@@ -1,3 +1,4 @@
+
 # Image Segmentation App
 
 ## Overview
@@ -70,7 +71,6 @@ Model details are stored in **`config.json`**, which allows easy modification of
         "feature_extractor_path":"../models/nvidia/segformer-b1-finetuned-ade-512-512/feature_extractor/"
     }
   }
-  
 ```
 
 ## How It Works
@@ -79,8 +79,14 @@ Model details are stored in **`config.json`**, which allows easy modification of
 3. **Overlay Results** → The segmented output is displayed with color overlays.
 
 ## Example Output
+### Original Image
+![Original Image](original image.jpg)
+
+### Segmented Image
+![Segmented Image](segmented_image.jpg)
 Original Image → Segmented Image Overlay:
 ![Example Segmentation](https://via.placeholder.com/600x300.png?text=Example+Output)
+
 
 ## Deployment
 You can deploy this app using **Streamlit Cloud**, **AWS**, or **GCP**:
